@@ -1,0 +1,12 @@
+{
+  "name": "practical-helper-assets-explorer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Strict HTML assets viewer with recursive folder support",
+  "scripts": {
+    "build": "node scripts/generate-assets-manifest.js",
+    "assets:build": "node scripts/generate-assets-manifest.js",
+    "dev": "node scripts/dev-server.js",
+    "start": "node scripts/dev-server.js"
+  }
+}

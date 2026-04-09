@@ -1,0 +1,27 @@
+{
+  "generatedAt": "2026-04-09T00:56:32.343Z",
+  "totalFiles": 1,
+  "totalFolders": 2,
+  "folders": [
+    {
+      "path": "assets",
+      "name": "assets",
+      "parent": ""
+    },
+    {
+      "path": "assets/MAD",
+      "name": "MAD",
+      "parent": "assets"
+    }
+  ],
+  "files": [
+    {
+      "path": "assets/MAD/Mad-Solution.pdf",
+      "name": "Mad-Solution.pdf",
+      "ext": "pdf",
+      "folder": "assets/MAD",
+      "size": 454644,
+      "modifiedAt": "2026-04-08T09:09:55.285Z"
+    }
+  ]
+}
