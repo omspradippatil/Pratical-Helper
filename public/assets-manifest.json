@@ -1,0 +1,205 @@
+{
+  "generatedAt": "2026-04-09T14:54:50.367Z",
+  "totalFiles": 17,
+  "totalFolders": 12,
+  "folders": [
+    {
+      "path": "assets",
+      "name": "assets",
+      "parent": ""
+    },
+    {
+      "path": "assets/CSS",
+      "name": "CSS",
+      "parent": "assets"
+    },
+    {
+      "path": "assets/CSS/Practical-1",
+      "name": "Practical-1",
+      "parent": "assets/CSS"
+    },
+    {
+      "path": "assets/CSS/Practical-2",
+      "name": "Practical-2",
+      "parent": "assets/CSS"
+    },
+    {
+      "path": "assets/CSS/Practical-3",
+      "name": "Practical-3",
+      "parent": "assets/CSS"
+    },
+    {
+      "path": "assets/CSS/Practical-4",
+      "name": "Practical-4",
+      "parent": "assets/CSS"
+    },
+    {
+      "path": "assets/CSS/Practical-5",
+      "name": "Practical-5",
+      "parent": "assets/CSS"
+    },
+    {
+      "path": "assets/CSS/Practical-6",
+      "name": "Practical-6",
+      "parent": "assets/CSS"
+    },
+    {
+      "path": "assets/CSS/Practical-7",
+      "name": "Practical-7",
+      "parent": "assets/CSS"
+    },
+    {
+      "path": "assets/CSS/Practical-8",
+      "name": "Practical-8",
+      "parent": "assets/CSS"
+    },
+    {
+      "path": "assets/CSS/Practical-9",
+      "name": "Practical-9",
+      "parent": "assets/CSS"
+    },
+    {
+      "path": "assets/CSS/Practical-9/src",
+      "name": "src",
+      "parent": "assets/CSS/Practical-9"
+    }
+  ],
+  "files": [
+    {
+      "path": "assets/CSS/Practical-1/index.html",
+      "name": "index.html",
+      "ext": "html",
+      "folder": "assets/CSS/Practical-1",
+      "size": 1504,
+      "modifiedAt": "2026-04-09T14:05:08.625Z"
+    },
+    {
+      "path": "assets/CSS/Practical-2/index.html",
+      "name": "index.html",
+      "ext": "html",
+      "folder": "assets/CSS/Practical-2",
+      "size": 1474,
+      "modifiedAt": "2026-04-09T14:05:24.651Z"
+    },
+    {
+      "path": "assets/CSS/Practical-3/index.html",
+      "name": "index.html",
+      "ext": "html",
+      "folder": "assets/CSS/Practical-3",
+      "size": 1817,
+      "modifiedAt": "2026-04-09T14:05:08.638Z"
+    },
+    {
+      "path": "assets/CSS/Practical-4/index.html",
+      "name": "index.html",
+      "ext": "html",
+      "folder": "assets/CSS/Practical-4",
+      "size": 1812,
+      "modifiedAt": "2026-04-07T16:56:10.799Z"
+    },
+    {
+      "path": "assets/CSS/Practical-5/index.html",
+      "name": "index.html",
+      "ext": "html",
+      "folder": "assets/CSS/Practical-5",
+      "size": 1282,
+      "modifiedAt": "2026-04-07T16:56:08.695Z"
+    },
+    {
+      "path": "assets/CSS/Practical-6/index.html",
+      "name": "index.html",
+      "ext": "html",
+      "folder": "assets/CSS/Practical-6",
+      "size": 1438,
+      "modifiedAt": "2026-04-07T16:56:08.781Z"
+    },
+    {
+      "path": "assets/CSS/Practical-7/controller.js",
+      "name": "controller.js",
+      "ext": "js",
+      "folder": "assets/CSS/Practical-7",
+      "size": 355,
+      "modifiedAt": "2026-04-07T16:56:24.721Z"
+    },
+    {
+      "path": "assets/CSS/Practical-7/index.html",
+      "name": "index.html",
+      "ext": "html",
+      "folder": "assets/CSS/Practical-7",
+      "size": 1270,
+      "modifiedAt": "2026-04-07T16:56:24.721Z"
+    },
+    {
+      "path": "assets/CSS/Practical-8/index.html",
+      "name": "index.html",
+      "ext": "html",
+      "folder": "assets/CSS/Practical-8",
+      "size": 2374,
+      "modifiedAt": "2026-04-07T16:56:24.749Z"
+    },
+    {
+      "path": "assets/CSS/Practical-9/index.html",
+      "name": "index.html",
+      "ext": "html",
+      "folder": "assets/CSS/Practical-9",
+      "size": 336,
+      "modifiedAt": "2026-04-07T16:56:46.495Z"
+    },
+    {
+      "path": "assets/CSS/Practical-9/package-lock.json",
+      "name": "package-lock.json",
+      "ext": "json",
+      "folder": "assets/CSS/Practical-9",
+      "size": 34345,
+      "modifiedAt": "2026-04-09T14:31:03.436Z"
+    },
+    {
+      "path": "assets/CSS/Practical-9/package.json",
+      "name": "package.json",
+      "ext": "json",
+      "folder": "assets/CSS/Practical-9",
+      "size": 344,
+      "modifiedAt": "2026-04-07T16:56:46.453Z"
+    },
+    {
+      "path": "assets/CSS/Practical-9/src/App.css",
+      "name": "App.css",
+      "ext": "css",
+      "folder": "assets/CSS/Practical-9/src",
+      "size": 697,
+      "modifiedAt": "2026-04-09T14:32:36.303Z"
+    },
+    {
+      "path": "assets/CSS/Practical-9/src/App.jsx",
+      "name": "App.jsx",
+      "ext": "jsx",
+      "folder": "assets/CSS/Practical-9/src",
+      "size": 1197,
+      "modifiedAt": "2026-04-09T14:32:22.280Z"
+    },
+    {
+      "path": "assets/CSS/Practical-9/src/Card.module.css",
+      "name": "Card.module.css",
+      "ext": "css",
+      "folder": "assets/CSS/Practical-9/src",
+      "size": 164,
+      "modifiedAt": "2026-04-09T14:32:50.336Z"
+    },
+    {
+      "path": "assets/CSS/Practical-9/src/main.jsx",
+      "name": "main.jsx",
+      "ext": "jsx",
+      "folder": "assets/CSS/Practical-9/src",
+      "size": 222,
+      "modifiedAt": "2026-04-07T16:56:48.362Z"
+    },
+    {
+      "path": "assets/CSS/README.md",
+      "name": "README.md",
+      "ext": "md",
+      "folder": "assets/CSS",
+      "size": 535,
+      "modifiedAt": "2026-04-07T16:56:58.732Z"
+    }
+  ]
+}

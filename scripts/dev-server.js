@@ -1,7 +1,7 @@
 const http = require("http");
 const fs = require("fs/promises");
 const path = require("path");
-const { generateManifest, ROOT_DIR } = require("./assets-manifest");
+const { generateManifest, PUBLIC_DIR } = require("./assets-manifest");
 
 const PORT = Number(process.env.PORT) || 5500;
 
@@ -33,8 +33,8 @@ const contentTypeByExt = {
 function toSafePath(requestPath) {
   const clean = decodeURIComponent(requestPath.split("?")[0]);
   const withoutLeadingSlash = clean.replace(/^\/+/, "");
-  const absolute = path.resolve(ROOT_DIR, withoutLeadingSlash || "index.html");
-  if (!absolute.startsWith(ROOT_DIR)) return null;
+  const absolute = path.resolve(PUBLIC_DIR, withoutLeadingSlash || "index.html");
+  if (!absolute.startsWith(PUBLIC_DIR)) return null;
   return absolute;
 }
 

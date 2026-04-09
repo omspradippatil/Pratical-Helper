@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Practical 1 - JSON Object</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background: #f4f7fb;
+    }
+    .card {
+      max-width: 420px;
+      background: #ffffff;
+      border: 1px solid #d9e2f0;
+      border-radius: 8px;
+      padding: 16px;
+    }
+    button {
+      padding: 8px 12px;
+      margin-top: 10px;
+      border: none;
+      border-radius: 4px;
+      background: #2457d6;
+      color: #ffffff;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h2>Practical 1: Student JSON Object</h2>
+    <p>Show properties from a JSON object in a formatted output block.</p>
+    <div id="output">Click the button to display student details.</div>
+    <button onclick="showStudent()">Show Student</button>
+  </div>
+
+  <script>
+    const student = {
+      rollno: 101,
+      name: "Rahul",
+      marks: 88,
+      section: "A"
+    };
+
+    function showStudent() {
+      const status = student.marks >= 40 ? "Pass" : "Fail";
+      document.getElementById("output").innerHTML =
+        "Roll No: " + student.rollno + "<br>" +
+        "Name: " + student.name + "<br>" +
+        "Marks: " + student.marks + "<br>" +
+        "Section: " + student.section + "<br>" +
+        "Result: " + status;
+    }
+  </script>
+</body>
+</html>

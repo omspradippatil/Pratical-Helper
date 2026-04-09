@@ -1,0 +1,7 @@
+.moduleCard {
+  padding: 16px;
+  border-radius: 10px;
+  border: 2px solid #b15a00;
+  background: #ffedd9;
+  box-shadow: 0 8px 14px rgba(177, 90, 0, 0.12);
+}

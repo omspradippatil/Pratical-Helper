@@ -2,8 +2,9 @@ const fs = require("fs/promises");
 const path = require("path");
 
 const ROOT_DIR = path.resolve(__dirname, "..");
-const ASSETS_DIR = path.join(ROOT_DIR, "assets");
-const MANIFEST_FILE = path.join(ROOT_DIR, "assets-manifest.json");
+const PUBLIC_DIR = path.join(ROOT_DIR, "public");
+const ASSETS_DIR = path.join(PUBLIC_DIR, "assets");
+const MANIFEST_FILE = path.join(PUBLIC_DIR, "assets-manifest.json");
 const IGNORED_FOLDER_NAMES = new Set(["node_modules", ".git", ".svn", ".hg", "dist", "build"]);
 
 function isIgnoredEntry(entryName) {
@@ -64,7 +65,7 @@ async function generateManifest(options = {}) {
 
   const files = [];
   files.folders = [];
-  await walkAssets(ASSETS_DIR, ROOT_DIR, files);
+  await walkAssets(ASSETS_DIR, PUBLIC_DIR, files);
 
   files.sort((a, b) => a.path.localeCompare(b.path, undefined, { sensitivity: "base" }));
   files.folders.sort((a, b) => a.path.localeCompare(b.path, undefined, { sensitivity: "base" }));
@@ -87,4 +88,5 @@ async function generateManifest(options = {}) {
 module.exports = {
   generateManifest,
   ROOT_DIR,
+  PUBLIC_DIR,
 };
