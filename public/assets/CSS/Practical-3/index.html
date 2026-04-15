@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Practical 3 - Currency and Date</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background: #f5fcf8;
+    }
+    input, button {
+      padding: 8px;
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+  <h2>Practical 3: Currency and Date Format</h2>
+  <p>Enter a number to see currency formatting and today's date.</p>
+
+  <label for="amount">Enter Amount:</label><br>
+  <input type="number" id="amount" placeholder="Enter amount" />
+  <button onclick="showResult()">Show Result</button>
+
+  <p id="currencyOutput"></p>
+  <p id="inrOutput"></p>
+  <p id="dateOutput"></p>
+
+  <script>
+    function formatDateMMDDYYYY(date) {
+      const month = String(date.getMonth() + 1).padStart(2, "0");
+      const day = String(date.getDate()).padStart(2, "0");
+      const year = date.getFullYear();
+      return month + "/" + day + "/" + year;
+    }
+
+    function showResult() {
+      const amountValue = Number(document.getElementById("amount").value);
+      const usdCurrency = new Intl.NumberFormat("en-US", {
+        style: "currency",
+        currency: "USD"
+      }).format(amountValue || 0);
+      const inrCurrency = new Intl.NumberFormat("en-IN", {
+        style: "currency",
+        currency: "INR"
+      }).format(amountValue || 0);
+
+      document.getElementById("currencyOutput").textContent = "Currency (USD): " + usdCurrency;
+      document.getElementById("inrOutput").textContent = "Currency (INR): " + inrCurrency;
+      document.getElementById("dateOutput").textContent = "Date (MM/DD/YYYY): " + formatDateMMDDYYYY(new Date());
+    }
+  </script>
+</body>
+</html>

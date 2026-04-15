@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="studentApp">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Practical 7 - AngularJS Student Table</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    table {
+      border-collapse: collapse;
+      width: 70%;
+      margin-top: 10px;
+    }
+    th, td {
+      border: 1px solid #333;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #ffe599;
+    }
+  </style>
+</head>
+<body ng-controller="StudentController">
+  <h2>Practical 7: AngularJS Table with orderBy</h2>
+  <p>Students sorted by name using <strong>orderBy:'name'</strong>.</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Roll No</th>
+        <th>Name</th>
+        <th>Marks</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="student in students | orderBy:'name'">
+        <td>{{ student.roll }}</td>
+        <td>{{ student.name }}</td>
+        <td>{{ student.marks }}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+  <script src="controller.js"></script>
+</body>
+</html>
