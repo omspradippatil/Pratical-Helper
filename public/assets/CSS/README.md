@@ -28,3 +28,14 @@ Note:
 2. Run: `npm install`
 3. Run: `npm run dev`
 4. Open the local URL shown in terminal.
+
+---
+
+##  Contact the Developer
+
+**Developed by OM Patil**
+
+- **Portfolio**: [ompradippatil.netlify.app](https://ompradippatil.netlify.app/)
+- **GitHub**: [@omspradippatil](https://github.com/omspradippatil)
+- **LinkedIn**: [OM Pradip Patil](https://in.linkedin.com/in/om-pradip-patil)
+- **Email**: [omspradippatil@gmail.com](mailto:omspradippatil@gmail.com)
